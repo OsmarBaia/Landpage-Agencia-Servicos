@@ -1,0 +1,66 @@
+/* Mobile */
+@media only screen and (max-width: 420px) {
+  body {
+    width: 100%;
+  }
+  .banner {
+    max-width: 420px;
+    width: 100%;
+  }
+  .front-background {
+    background-size: 150%;
+  }
+
+  .banner-container {
+    width: 90%;
+    right: 10px;
+    top: 10px;
+  }
+
+  .company-info-content {
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 20px;
+    width: 80%;
+  }
+
+  .services {
+    max-width: 100%;
+    margin: 80px 10px;
+    margin-bottom: 0px;
+
+    padding: 5px 5px;
+    padding-bottom: 0;
+  }
+
+  .service-title {
+    float: none;
+    width: 90%;
+  }
+
+  .service-description {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .about-area {
+    flex-direction: column;
+  }
+
+  .contact-area {
+    max-width: 100%;
+  }
+
+  .form-container input,
+  .form-container textarea {
+    width: 130%;
+  }
+
+  .form-background {
+    width: 150%;
+    height: 100%;
+  }
+}
